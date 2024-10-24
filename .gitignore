@@ -1,0 +1,17 @@
+# Exclure les fichiers audio
+*.mp3
+*.wav
+*.flac
+
+# Exclure les fichiers vidéo
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Exclure les fichiers image
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
