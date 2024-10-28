@@ -118,10 +118,4 @@ st.write("this is a multiselect :")
 multiselect = st.multiselect("choose your favorite option : ", ["Audi", "BMW", "Mercedes"], key="multiselect")
 
 
-
-
-
-
-
-
 print(st.session_state)

@@ -57,8 +57,28 @@ st.markdown("---")
 st.write("this is a color picker :")
 color_picker = st.color_picker("choose your favorite color : ", "#00f2ff", key="color_picker")
 st.write("you 've selected : ", st.session_state.color_picker)
-print (type(st.session_state.color_picker))
+print ("type of color_picker : ", type(st.session_state.color_picker))
 
+#implement a date input:
+st.markdown("---")  
+st.write("this is a date input :")
+date = st.date_input("choose a date : ", key="date_input",value = "default_value_today")
+st.write("you 've selected : ", st.session_state.date_input)
+print ("type of date variable: ", type(date))
+
+#implement a time input:
+st.markdown("---")
+st.write("this is a time input :")
+time = st.time_input("choose a time : ", key="time_input")
+st.write("you 've selected : ", st.session_state.time_input)
+print ("type of time variable: ", type(time))
+
+#implement a progress bar:
+st.markdown("---")
+st.write("this is a progress bar :")
+bar = st.progress(0)
+for i in range(10):
+    bar.progress((i+1) * 10)
 
 
 
