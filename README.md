@@ -23,5 +23,5 @@ Before you begin, ensure you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/username/repo.git
+git clone https://github.com/DidiPy95/Streamlit-WebApp.git
 cd repo
