@@ -1,0 +1,49 @@
+/* Container for the custom HTML component */
+.custom-component {
+    border: 2px solid #ff4081;  /* Bright pink for visibility */
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 500px;  /* Light gray for subtle contrast */
+    text-align: center;
+    border-radius: 12px;  /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+/* Main title inside custom component */
+.title {
+    color: #ff5722;  /* Bright orange for strong contrast */
+    font-size: 2.5em;  /* Larger font size for prominence */
+    margin-top: 0;
+    margin-bottom: 10px;  /* Spacing below title */
+}
+
+/* Subtitle style */
+.subtitle {
+    color: #ffc107;  /* Bright amber for high visibility */
+    font-size: 1.8em;  /* Slightly larger than default size */
+    margin-top: 0;
+    margin-bottom: 15px;  /* Spacing below subtitle */
+}
+
+/* Styling for the image, "using .custom-component .image with a space after the dot is important to point the child class and not a multiple class selector"   */
+.custom-component .image {
+    margin: 15px auto;
+    border-radius: 10px;  /* Rounded corners for the image */
+    width: 250px;  /* Increased size for better visibility */
+    height: auto;  /* Maintain aspect ratio */
+    border: 2px solid #ff4081;  /* Border around the image for emphasis */
+}
+
+/* Styling for the paragraph text */
+.text {
+    color: #5769ce;  /* Bright blue for readability */
+    font-size: 1.1em;  /* Slightly larger for better readability */
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 1.6;  /* Increased line height for better readability */
+}
+
+/* Styling for the Lottie animation to make the border invisible  */
+.lottie {
+    border: none;
+}
